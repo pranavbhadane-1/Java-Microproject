@@ -4,10 +4,6 @@ import java.time.*;
 import java.util.*;
 import java.util.stream.*;
 
-/** Civic Complaint Triage Tracker - pure Java 21, no external libraries.
- *  Auto-classifies complaints, assigns priority, routes to a department,
- *  tracks SLA breaches, and persists to a TSV file.
- *  Run: java CivicTracker.java --demo   |   java CivicTracker.java (interactive) */
 public class CivicTracker {
 
     enum Priority { LOW, MEDIUM, HIGH, CRITICAL }
